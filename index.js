@@ -85,11 +85,11 @@ module.exports = chika = async (chika, m, chatUpdate, store) => {
     	const isPremium = isCreator || global.premium.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) || false
 
         // Fake
-        const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: thumb, surface: 200, message: `© ${ownername}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
-		const fdoc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `© ${ownername}`,jpegThumbnail: thumb}}}
+        const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: thumb, surface: 200, message: `© ${botname}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+		const fdoc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `© ${botname}`,jpegThumbnail: thumb}}}
 		const fvn = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: { "audioMessage": {"mimetype":"audio/ogg; codecs=opus","seconds":359996400,"ptt": "true"}} } 
-		const fgif = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})},message: {"videoMessage": { "title":`© ${ownername}`, "h": `Hmm`,'seconds': '359996400', 'gifPlayback': 'true', 'caption': `© ${ownername}`, 'jpegThumbnail': thumb}}}
-		const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "m","groupName": "P", "caption": `© ${ownername}`, 'jpegThumbnail': thumb}}}
+		const fgif = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})},message: {"videoMessage": { "title":`© ${botname}`, "h": `Hmm`,'seconds': '359996400', 'gifPlayback': 'true', 'caption': `© ${botname}`, 'jpegThumbnail': thumb}}}
+		const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "m","groupName": "P", "caption": `© ${botname}`, 'jpegThumbnail': thumb}}}
 		const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) },message: { "videoMessage": { "title":`${pushname}`, "h": `Hmm`,'seconds': '359996400', 'caption': `${pushname}`, 'jpegThumbnail': thumb}}}
 		const floc = {key : {participant : '0@s.whatsapp.net'},message: {locationMessage: {name: `${ownername}`,jpegThumbnail: thumb}}}
 		const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: `6283136505591-1614953337@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `${pushname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': thumb, thumbnail: thumb,sendEphemeral: true}}}
@@ -1264,12 +1264,12 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'YouTube Creator',
+                                    displayText: 'IG Creator',
                                     url: `${youtube}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: `Rest Api's`,
+                                    displayText: `Group Bot`,
                                     url: `${myweb}`
                                 }
                             }, {
@@ -1298,12 +1298,12 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'YouTube Creator',
+                                    displayText: 'IG Creator',
                                     url: `${youtube}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: `Rest Api's`,
+                                    displayText: `Group Bot`,
                                     url: `${myweb}`
                                 }
                             }, {
@@ -1572,7 +1572,7 @@ break
 	    if (!/image/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
 	    if (/webp/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
 	    let remobg = require('remove.bg')
-	    let apirnobg = ['q61faXzzR5zNU6cvcrwtUkRU','S258diZhcuFJooAtHTaPEn4T','5LjfCVAp4vVNYiTjq9mXJWHF','aT7ibfUsGSwFyjaPZ9eoJc61','BY63t7Vx2tS68YZFY6AJ4HHF','5Gdq1sSWSeyZzPMHqz7ENfi8','86h6d6u4AXrst4BVMD9dzdGZ','xp8pSDavAgfE5XScqXo9UKHF','dWbCoCb3TacCP93imNEcPxcL']
+	    let apirnobg = ['UVb4H75iQu9KkN5BGfuXg1wR','eGy6h4Eg6oqXnvyPtYXPvSUf']
 	    let apinobg = apirnobg[Math.floor(Math.random() * apirnobg.length)]
 	    hmm = await './src/remobg-'+getRandom('')
 	    localFile = await chika.downloadAndSaveMediaMessage(quoted, hmm)
@@ -1776,12 +1776,12 @@ case 'webtonsearch': case 'webtoon':
                     var but = [
 				{
 					"urlButton": {
-						"displayText": `Rest Api's`,
+						"displayText": `Group Bot`,
 						"url": `${myweb}`
 						}
 					}
 				]
-				await chika.send5ButLoc(from, txt , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
+				await chika.send5ButLoc(from, txt , `© ${botname}`,gam, but , { userJid: m.chat, quoted: m })
                 })
                 .catch((err) => {
                     reply(mess.error)
@@ -1801,12 +1801,12 @@ case 'webtonsearch': case 'webtoon':
                     var but = [
 				{
 					"urlButton": {
-						"displayText": `Rest Api's`,
+						"displayText": `Group Bot`,
 						"url": `${myweb}`
 						}
 					}
 				]
-				await chika.send5ButLoc(from, txt , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
+				await chika.send5ButLoc(from, txt , `© ${botname}`,gam, but , { userJid: m.chat, quoted: m })
                 })
                 .catch((err) => {
                     reply(mess.error)
@@ -1825,12 +1825,12 @@ case 'webtonsearch': case 'webtoon':
                     var but = [
 				{
 					"urlButton": {
-						"displayText": `Rest Api's`,
+						"displayText": `Group Bot`,
 						"url": `${myweb}`
 						}
 					}
 				]
-				await chika.send5ButLoc(from, txt , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
+				await chika.send5ButLoc(from, txt , `© ${botname}`,gam, but , { userJid: m.chat, quoted: m })
                 })
                 .catch((err) => {
                     reply(mess.error)
@@ -2190,7 +2190,7 @@ if (!q) return reply('Judul cerpen yang tersedia lihat di list *CERPEN MENU*')
 reply(mess.wait)
 let cerpe = await cerpen(q)
 var riych = await getBuffer(picak+`Cerpen ${q}`)
-await chika.send5ButImg(from, `⭔ _*Title :*_ ${cerpe.title}\n⭔ _*Author :*_ ${cerpe.author}\n⭔ _*Category :*_ ${cerpe.kategori}\n⭔ _*Pass Moderation :*_ ${cerpe.lolos}\n⭔ _*Story :*_\n${cerpe.cerita}`, `© ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}}] )
+await chika.send5ButImg(from, `⭔ _*Title :*_ ${cerpe.title}\n⭔ _*Author :*_ ${cerpe.author}\n⭔ _*Category :*_ ${cerpe.kategori}\n⭔ _*Pass Moderation :*_ ${cerpe.lolos}\n⭔ _*Story :*_\n${cerpe.cerita}`, `© ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}}] )
 }
 break
 case 'fajar-news':
@@ -3088,7 +3088,7 @@ templateButtons: [
 {
 index: 1, 
 urlButton: {
-displayText: 'YouTube Creator', 
+displayText: 'IG Creator', 
 url: `${youtube}`
 }
 },
@@ -3106,7 +3106,7 @@ templateButtons: [
 {
 index: 1, 
 urlButton: {
-displayText: 'YouTube Creator', 
+displayText: 'IG Creator', 
 url: `${youtube}`
 }
 },
@@ -3118,12 +3118,12 @@ break
 case 'owner': case 'creator': {
 chika.sendContact(m.chat, global.owner, m)
 const templateMessage = {
-text: 'Tuh Kak Owner Ku',footer: `© ${ownername}`,
+text: 'Tuh Kak Owner Ku',footer: `© ${botname}`,
 templateButtons: [
 {
 index: 1, 
 urlButton: {
-displayText: 'YouTube Creator', 
+displayText: 'IG Creator', 
 url: `${youtube}`
 }
 },
@@ -3316,10 +3316,10 @@ await chika.sendListMenu(from, `Selamat ${salam} kak ${pushname}` , lang.list(pu
 break
 case 'menu': {
 if(typemenu == 'image'){
-await chika.send5ButImg(from, `` + '' + lang.menu(botname, pushname, salam), `© ${ownername}`,thumb, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Menu","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.menu(botname, pushname, salam), `© ${botname}`,thumb, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Menu","id": 'command'}}] )
 }
 if(typemenu == 'gif'){
-await chika.send5ButGif(from, `` + '' + lang.menu(botname, pushname, salam), `© ${ownername}`,velochika, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Menu","id": 'command'}}] )
+await chika.send5ButGif(from, `` + '' + lang.menu(botname, pushname, salam), `© ${botname}`,velochika, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Menu","id": 'command'}}] )
 }
 if(typemenu == 'list'){
 await chika.sendListMenu(from, `Selamat ${salam} kak ${pushname}` , lang.list(pushname) , 'CLICK HERE', {quoted: fkontak})
@@ -3329,10 +3329,10 @@ break
 case 'allmenu': {
 if(typemenu == 'image'){
 var riych = await getBuffer(picak+'All Menu')
-await chika.send5ButImg(from, `` + '' + lang.allmenu(prefix, pushname, botname, time, salam), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}}] )
+await chika.send5ButImg(from, `` + '' + lang.allmenu(prefix, pushname, botname, time, salam), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}}] )
 }
 if(typemenu == 'gif'){
-await chika.send5ButGif(from, `` + '' + lang.allmenu(prefix, pushname, botname, time, salam), `  © ${ownername}`,velochika, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}}] )
+await chika.send5ButGif(from, `` + '' + lang.allmenu(prefix, pushname, botname, time, salam), `  © ${botname}`,velochika, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}}] )
 }
 if(typemenu == 'catalog'){
 await chika.sendCatalog(from, 'ALL MENU', lang.allmenu(prefix, pushname, botname, time, salam), thumb, {quoted: ftroli})
@@ -3341,95 +3341,95 @@ await chika.sendCatalog(from, 'ALL MENU', lang.allmenu(prefix, pushname, botname
 break
 case 'groupmenu':
 var riych = await getBuffer(picak+'Group Menu')
-await chika.send5ButImg(from, `` + '' + lang.groupmenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.groupmenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'downloadermenu':
 var riych = await getBuffer(picak+'Downloader Menu')
-await chika.send5ButImg(from, `` + '' + lang.downloadermenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.downloadermenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'searchmenu':
 var riych = await getBuffer(picak+'Search Menu')
-await chika.send5ButImg(from, `` + '' + lang.searchmenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.searchmenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'telestickmenu':
 var riych = await getBuffer(picak+'Telegram Sticker Menu')
-await chika.send5ButImg(from, `` + '' + lang.telestickmenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.telestickmenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'randommenu':
 var riych = await getBuffer(picak+'Random Menu')
-await chika.send5ButImg(from, `` + '' + lang.randommenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.randommenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'randomanimemenu':
 var riych = await getBuffer(picak+'Random Anime Menu')
-await chika.send5ButImg(from, `` + '' + lang.randomanimemenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.randomanimemenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'searchmenu':
 var riych = await getBuffer(picak+'Search Menu')
-await chika.send5ButImg(from, `` + '' + lang.searchmenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.searchmenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'textpromenu':
 var riych = await getBuffer(picak+'Textpro Menu')
-await chika.send5ButImg(from, `` + '' + lang.textpromenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.textpromenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'photooxymenu':
 var riych = await getBuffer(picak+'Photo Oxy Menu')
-await chika.send5ButImg(from, `` + '' + lang.photooxymenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.photooxymenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'ephotomenu':
 var riych = await getBuffer(picak+'Ephoto Menu')
-await chika.send5ButImg(from, `` + '' + lang.ephotomenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.ephotomenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'funmenu':
 var riych = await getBuffer(picak+'Fun Menu')
-await chika.send5ButImg(from, `` + '' + lang.funmenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.funmenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'primbonmenu':
 var riych = await getBuffer(picak+'Primbon Menu')
-await chika.send5ButImg(from, `` + '' + lang.primbonmenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.primbonmenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'cerpenmenu':
 var riych = await getBuffer(picak+'Cerpen Menu')
-await chika.send5ButImg(from, `` + '' + lang.cerpenmenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.cerpenmenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'convertmenu':
 var riych = await getBuffer(picak+'Converter Menu')
-await chika.send5ButImg(from, `` + '' + lang.convertmenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.convertmenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'informationmenu':
 var riych = await getBuffer(picak+'Information Menu')
-await chika.send5ButImg(from, `` + '' + lang.informationmenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.informationmenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'mainmenu':
 var riych = await getBuffer(picak+'Main Menu')
-await chika.send5ButImg(from, `` + '' + lang.mainmenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.mainmenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'databasemenu':
 var riych = await getBuffer(picak+'Database Menu')
-await chika.send5ButImg(from, `` + '' + lang.groupmenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.groupmenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'anonymousmenu':
 var riych = await getBuffer(picak+'Anonymous Menu')
-await chika.send5ButImg(from, `` + '' + lang.anonymousmenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.anonymousmenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'islamicmenu':
 var riych = await getBuffer(picak+'Islamic Menu')
-await chika.send5ButImg(from, `` + '' + lang.islamicmenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.islamicmenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'voicechargermenu':
 var riych = await getBuffer(picak+'Voice Charger Menu')
-await chika.send5ButImg(from, `` + '' + lang.voicechargermenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.voicechargermenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'ownermenu':
 var riych = await getBuffer(picak+'Owner Menu')
-await chika.send5ButImg(from, `` + '' + lang.ownermenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.ownermenu(prefix), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'donasi': case 'donate':
 var riych = await getBuffer(picak+'Donasi')
-await chika.send5ButImg(from, `` + '' + lang.donasi(ownernomer), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.donasi(ownernomer), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'thanksto': case 'tqto':
 var riych = await getBuffer(picak+'Contributors')
-await chika.send5ButImg(from, `` + '' + lang.thanksto(), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.thanksto(), `  © ${botname}`,riych, [{"urlButton": {"displayText": "IG Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Group Bot`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
              default:
                 if (budy.startsWith('=>')) {
