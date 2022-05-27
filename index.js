@@ -1592,6 +1592,37 @@ break
 	    })
 	    }
 	    break
+	// Random Text By Rmdhn-20
+        case 'dilanquote': case 'motivasi': case 'animequotes': {
+            reply(mess.wait)
+            let Zens = await fetchJson(`https://zenzapis.xyz/randomtext/${command}?apikey=exz123`)
+            let buttons = [
+                {buttonId: `${command}`, buttonText: {displayText: 'Next'}, type: 1}
+            ]
+            let buttonMessage = {
+                text: `${Zens.result.message}`,
+                footer: botname,
+                buttons: buttons,
+                headerType: 2
+            }
+            chika.sendMessage(m.chat, buttonMessage, { quoted: m })
+        }
+        break
+        case 'bucin': case 'katasenja': case 'quotes': case 'bijak': {
+            reply(mess.wait)
+            let zekais = await fetchJson(`https://api.zekais.com/${command}?apikey=zekais`)
+            let buttons = [
+                {buttonId: `${command}`, buttonText: {displayText: 'Next'}, type: 1}
+            ]
+            let buttonMessage = {
+                text: `${zekais.result}`,
+                footer: botname,
+                buttons: buttons,
+                headerType: 2
+            }
+            chika.sendMessage(m.chat, buttonMessage, { quoted: m })
+        }
+        break
 	    case 'yts': case 'ytsearch': {
                 if (!q) return reply(`Example : ${prefix + command} story wa anime`)
                 reply(mess.wait)
