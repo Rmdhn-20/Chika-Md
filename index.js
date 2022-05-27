@@ -1573,7 +1573,7 @@ break
 	    if (!/image/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
 	    if (/webp/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
 	    let remobg = require('remove.bg')
-	    let apirnobg = ['UVb4H75iQu9KkN5BGfuXg1wR','eGy6h4Eg6oqXnvyPtYXPvSUf']
+	    let apirnobg = ['UVb4H75iQu9KkN5BGfuXg1wR','HMHeuucVfY4G72UrGK9NBGNE']
 	    let apinobg = apirnobg[Math.floor(Math.random() * apirnobg.length)]
 	    hmm = await './src/remobg-'+getRandom('')
 	    localFile = await chika.downloadAndSaveMediaMessage(quoted, hmm)
