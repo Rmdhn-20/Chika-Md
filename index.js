@@ -1611,7 +1611,7 @@ break
         break
         case 'bucin': case 'katasenja': case 'quotes': case 'bijak': {
             reply(mess.wait)
-            let zekais = await fetchJson(`https://api.zekais.com/${command}?apikey=zekais`)
+            let zekais = await fetchJson(`https://api.zekais.com/${command}?apikey=lbLbxbVw`)
             let buttons = [
                 {buttonId: `${command}`, buttonText: {displayText: 'Next'}, type: 1}
             ]
