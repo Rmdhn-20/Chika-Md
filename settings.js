@@ -17,8 +17,8 @@ zenz: 'https://zenzapis.xyz',
 
 //—————「 Website Apikey 」—————//
 global.APIKeys = {
-//gausah di apa² in, udah free apikey :)
-'https://zenzapis.xyz': 'BagasPrdn',
+//ganti njeng udah ga free apikey
+'https://zenzapis.xyz': 'exz123',
 }
 
 //—————「 Setting Owner 」—————//
@@ -28,7 +28,7 @@ global.ownernomer = '628889616144' //ubah jadi nomor mu, note tanda ' gausah di 
 
 //—————「 Set Nama Own & Bot 」—————//
 global.ownername = '༻ᵐʳËкṳzïкᾰ꧂' //ubah jadi nama mu, note tanda ' gausah di hapus!
-global.botname = 'Nezuko-Md' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
+global.botname = '༻Nezuko-Md꧂' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
 global.footer = '༻ᵐʳËкṳzïкᾰ꧂' //ubah jadi nama mu, note tanda ' gausah di hapus!
 
 //—————「 Set Kebutuhan Button & Kontak 」—————//
@@ -41,7 +41,7 @@ global.email = 'ekuzika123@gmail.com'
 global.region = 'indonesia'
 
 //—————「 Set Wm 」—————//
-global.packname = '© Nezuko-Md' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
+global.packname = 'This sticker was created by ༻Nezuko-Md꧂' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
 global.author = '༻ᵐʳËкṳzïкᾰ꧂' //ubah jadi nama mu, note tanda ' gausah di hapus!
 
 //—————「 Set Nama Session 」—————//
@@ -52,7 +52,7 @@ global.sessionName = 'session'
 //terserah mau ubah atau nggak, note : tanda ' gausah di hapus!
 global.limitawal = {
 premium: "Infinity",
-free: 25,
+free: 30,
 }
 
 //—————「 Set Image 」—————//
