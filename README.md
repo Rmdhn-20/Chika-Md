@@ -9,24 +9,25 @@
 <p align="center">
 <a href="https://github.com/DikaArdnt"><img title="Author" src="https://img.shields.io/badge/Author-Dika-red.svg?style=for-the-badge&logo=github"></a>
 <a href="https://github.com/riychdwayne"><img title="Recode" src="https://img.shields.io/badge/Recode-Riy-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Rmdhn-20"><img title="Recode ulang" src="https://img.shields.io/badge/Recode-Rmdhn 20-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="https://github.com/riychdwayne/followers"><img title="Followers" src="https://img.shields.io/github/followers/riychdwayne?color=red&style=flat-square"></a>
-<a href="https://github.com/riychdwayne/Chika-Md/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/riychdwayne/Chika-Md?color=blue&style=flat-square"></a>
-<a href="https://github.com/riychdwayne/Chika-Md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/riychdwayne/Chika-Md?color=red&style=flat-square"></a>
-<a href="https://github.com/riychdwayne/Chika-Md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/riychdwayne/Chika-Md?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/riychdwayne/Chika-Md"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
-<a href="https://github.com/riychdwayne/Chika-Md/"><img title="Size" src="https://img.shields.io/github/repo-size/riychdwayne/Chika-Md?style=flat-square&color=green"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Friychdwayne%2FChika-Md&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/riychdwayne/Chika-Md/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/Rmdhn-20/followers"><img title="Followers" src="https://img.shields.io/github/followers/Rmdhn-20?color=red&style=flat-square"></a>
+<a href="https://github.com/Rmdhn-20/Chika-Md/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Rmdhn-20/Chika-Md?color=blue&style=flat-square"></a>
+<a href="https://github.com/Rmdhn-20/Chika-Md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Rmdhn-20/Chika-Md?color=red&style=flat-square"></a>
+<a href="https://github.com/Rmdhn-20/Chika-Md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Rmdhn-20/Chika-Md?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Rmdhn-20/Chika-Md"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
+<a href="https://github.com/Rmdhn-20/Chika-Md/"><img title="Size" src="https://img.shields.io/github/repo-size/Rmdhn-20/Chika-Md?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FRmdhn-20%2FChika-Md&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/Rmdhn-20/Chika-Md/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 
 <p align="center">
-  <a href="https://github.com/riychdwayne/Chika-Md#requirements">Requirements</a> •
-  <a href="https://github.com/riychdwayne/Chika-Md#instalasi">Installation</a> •
-  <a href="https://github.com/riychdwayne/Chika-Md#thanks-to">Thanks to</a> •
-  <a href="https://github.com/riychdwayne/Chika-Md#Official-Group"> Official Group Bot</a> •
-  <a href="https://github.com/riychdwayne/Chika-Md#donate">Donate</a>
+  <a href="https://github.com/Rmdhn-20/Chika-Md#requirements">Requirements</a> •
+  <a href="https://github.com/Rmdhn-20/Chika-Md#instalasi">Installation</a> •
+  <a href="https://github.com/Rmdhn-20/Chika-Md#thanks-to">Thanks to</a> •
+  <a href="https://github.com/Rmdhn-20/Chika-Md#Official-Group"> Official Group Bot</a> •
+  <a href="https://github.com/Rmdhn-20/Chika-Md#donate">Donate</a>
 </p>
 </div>
 
@@ -39,7 +40,7 @@
 
 ## Bugs and Tester
 * Jika kamu menemukan bug jangan lupa buka Issues
-* Info Lebih Lanjut, Chat [owner-chika](https://wa.me/6281575886399)
+* Info Lebih Lanjut, Chat [owner-chika](https://wa.me/628889616144)
 
 # Requirements
 * [Node.js](https://nodejs.org/en/)
@@ -58,7 +59,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 termux-setup-storage
 apt update && apt upgrade
 pkg install nodejs git ffmpeg libwebp imagemagick
-git clone https://github.com/riychdwayne/Chika-Md.git
+git clone https://github.com/Rmdhn-20/Chika-Md.git
 cd Chika-Md
 pkg install yarn
 yarn
@@ -96,8 +97,8 @@ global.sessionName = 'chika'
 </p>
 
 ## Donate
-- [Dana](https://wa.me/6281575886399?text=Bang+mau+donasi)
-- [Gopay](https://wa.me/6281575886399?text=Bang+mau+donasi)
+- [Dana](https://wa.me/628889616144?text=Bang+mau+donasi)
+- [Gopay](https://wa.me/628889616144?text=Bang+mau+donasi)
 
 # Official Group
 - [Group 1](https://chat.whatsapp.com/CRY23lVKmXB7sCMhHmcwVw)
@@ -109,4 +110,5 @@ global.sessionName = 'chika'
 - [Fatih](https://github.com/FatihArridho) <br> 
 - [Zeeone](https://github.com/zeeone-ofc) <br> 
 - [Yoga](https://github.com/YogGanz) <br> 
-- [Riy](https://github.com/riychdwayne) <br> 
+- [Riy](https://github.com/riychdwayne) <br>
+- [Rmdhn-20](https://github.com/Rmdhn-20) <br>
