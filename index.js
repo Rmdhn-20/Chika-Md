@@ -1609,7 +1609,7 @@ break
             chika.sendMessage(m.chat, buttonMessage, { quoted: m })
         }
         break
-        case 'bucin': case 'katasenja': case 'quotes': case 'bijak': {
+        case 'bucin': case 'katasenja': case 'bijak': {
             reply(mess.wait)
             let zekais = await fetchJson(`https://api.zekais.com/${command}?apikey=lbLbxbVw`)
             let buttons = [
