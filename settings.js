@@ -19,7 +19,7 @@ zenz: 'https://zenzapis.xyz',
 //—————「 Website Apikey 」—————//
 global.APIKeys = {
 //ganti njeng udah ga free apikey
-'https://zenzapis.xyz': 'exz123',
+'https://zenzapis.xyz': 'BagasGanz',
 }
 
 //—————「 Setting Owner 」—————//
